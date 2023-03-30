@@ -1,0 +1,112 @@
+/* reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* general styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f1f1f1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+/* header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+}
+
+/* hero styles */
+.hero {
+  background-color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* games styles */
+.games {
+  margin: 100px 0;
+}
+
+.games h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.games li {
+  margin-bottom: 40px;
+}
+
+.games img {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.games h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.games p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+/* footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
